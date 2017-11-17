@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>emergencia</name>
+    <name>Emergencia</name>
     <description>
-        A basic Framework7 template for PhoneGap.
+        Aplicacion para Situaciones de emergencia.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="rafael.cetina@hotmail.com" href="#">
+        Team Dinamita
     </author>
     <content src="index.html" />
     <access origin="*" />
