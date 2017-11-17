@@ -18,6 +18,12 @@ var mainView = myApp.addView('.view-main', {
     dynamicNavbar: false,
 });
 $$(document).on('pageInit', function (e) {
+	console.log("init page");
+
+		
+
+
+
   		$(".swipebox").swipebox();
 		
 		$("#ContactForm").validate({
@@ -26,6 +32,9 @@ $$(document).on('pageInit', function (e) {
 		return false;
 		}
 		});
+
+
+		
 		
 
 		$(".posts li").hide();	
@@ -147,6 +156,8 @@ $$(document).on('pageInit', function (e) {
 	// };
 	
 	
+    
+  
 	
 		
 		
