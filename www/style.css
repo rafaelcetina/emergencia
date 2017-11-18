@@ -59,6 +59,17 @@ width: 100%;
 overflow: hidden;
 font-weight:300;
 }
+
+#demo{
+  padding: 1.5em 3em;
+  color: #FFFFFF;
+  font-size: 16px;
+  background-color: #127b42;
+  font-weight: 300;
+  margin-top: 8em;
+  position: relative;
+}
+
 .clear{ 
 clear:both; 
 display:block;
@@ -225,6 +236,7 @@ margin:2% 0 2% 8%;
 height:auto;
 background-color:#127b42;
 }
+
 .list-nav-small{
 padding:20px 5%;
 width:90%;
@@ -321,6 +333,18 @@ background:url(images/icons/white/heart.png);
 background-size: auto 40%;
 background-repeat: no-repeat;
 background-position: 50% 35px;
+}
+.like-icon a{
+background:url(images/icons/white/like.png);
+background-size: auto 60%;
+background-repeat: no-repeat;
+background-position: 50% 5px;
+}
+.danger-icon a{
+background:url(images/icons/white/danger.png);
+background-size: auto 55%;
+background-repeat: no-repeat;
+background-position: 50% 10px;
 }
 .logout-icon a{
 background:url(images/icons/white/logout.png);

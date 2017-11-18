@@ -18,7 +18,7 @@
     <platform name="android">
         <preference name="android-minSdkVersion" value="14" />
         <allow-intent href="market:*" />
-        <icon src="icon.png" width="180" height="180"  />
+        <icon height="180" src="icon.png" width="180" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -29,4 +29,5 @@
     <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
     <plugin name="cordova-plugin-console" spec="~1.0.1" />
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
+    <plugin name="cordova-plugin-indexedDB" spec="~0.1.2" />
 </widget>
