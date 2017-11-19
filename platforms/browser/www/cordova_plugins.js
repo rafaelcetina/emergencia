@@ -15,8 +15,7 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-plugin-console": "1.0.7",
     "cordova-plugin-statusbar": "1.0.1",
-    "cordova-plugin-indexedDB": "0.1.2",
-    "cordova-plugin-geolocation": "3.0.0"
+    "cordova-plugin-indexedDB": "0.1.2"
 }
 // BOTTOM OF METADATA
 });
