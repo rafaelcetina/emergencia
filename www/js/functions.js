@@ -13,11 +13,11 @@ function showPosition(position) {
   var lat = position.coords.latitude;
   var lon = position.coords.longitude;
   console.log(position);
-  $.get("https://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lon+"&key=AIzaSyA5aHL4fkW6IYWiqogkDrRsSNewLXFhJrU", function(data, status){
-    var address = data.results[0].formatted_address;
-      console.log(address);
-    $('.address').html(address);
-  });
+  // $.get("https://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lon+"&key=AIzaSyA5aHL4fkW6IYWiqogkDrRsSNewLXFhJrU", function(data, status){
+  //   var address = data.results[0].formatted_address;
+  //     console.log(address);
+  //   $('.address').html(address);
+  // });
   x.innerHTML = "<i class='fa fa-map-marker'></i> Mi ubicación: <span class='address'></span><br>Latitud: <b>" + lat.toFixed(4) + 
   "</b> &nbsp;&nbsp;&nbsp;&nbsp;Longitud: <b>" + lon.toFixed(4)+" </b><br> Precisión: "+position.coords.accuracy+" (m)"; 
 }
