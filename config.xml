@@ -30,6 +30,6 @@
     <plugin name="cordova-plugin-console" spec="~1.0.1" />
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
     <plugin source="git" spec="https://github.com/Microsoft/cordova-plugin-indexedDB.git" />
-    <plugin name="cordova-plugin-geolocation" source="npm" />
+    <plugin name="cordova-plugin-geolocation" source="npm" spec="3.0.0"/>
     <engine name="android" spec="6.2.2" />
 </widget>
