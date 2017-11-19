@@ -31,4 +31,5 @@
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
     <plugin source="git" spec="https://github.com/Microsoft/cordova-plugin-indexedDB.git" />
     <plugin name="cordova-plugin-geolocation" spec="~3.0.0" />
+    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
 </widget>
