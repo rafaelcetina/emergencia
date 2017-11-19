@@ -29,6 +29,6 @@
     <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
     <plugin name="cordova-plugin-console" spec="~1.0.1" />
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
-    <!-- <plugin name="cordova-plugin-indexedDB" spec="~0.1.2" /> -->
-    <plugin spec="https://github.com/Microsoft/cordova-plugin-indexedDB.git" source="git" />
+    <plugin source="git" spec="https://github.com/Microsoft/cordova-plugin-indexedDB.git" />
+    <plugin name="cordova-plugin-geolocation" spec="~3.0.0" />
 </widget>
