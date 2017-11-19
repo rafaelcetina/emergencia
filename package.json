@@ -1,0 +1,13 @@
+{
+    "name": "com.rodolfo.emergencia",
+    "version": "2.1.1",
+    "displayName": "Emergencia",
+    "cordova": {
+        "platforms": [
+            "android"
+        ]
+    },
+    "dependencies": {
+        "cordova-android": "6.2.2"
+    }
+}
