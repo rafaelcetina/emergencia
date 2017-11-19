@@ -3,6 +3,7 @@ var x = document.getElementById("demo");
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
+        x.innerHTML = "Geolocation funciona";
     } else {
         alert("ERROR CON EL PLUGIN");
         x.innerHTML = "Geolocation is not supported by this device.";
