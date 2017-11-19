@@ -4,6 +4,7 @@ function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
     } else {
+        alert("ERROR CON EL PLUGIN");
         x.innerHTML = "Geolocation is not supported by this device.";
     }
 }
