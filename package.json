@@ -1,13 +1,17 @@
 {
-  "name": "com.rodolfo.emergencia",
-  "version": "2.1.1",
-  "displayName": "Emergencia",
-  "cordova": {
-    "platforms": [
-      "android"
-    ]
-  },
-  "dependencies": {
-    "cordova-android": "6.2.2"
-  }
+    "name": "com.rodolfo.emergencia",
+    "version": "2.1.1",
+    "displayName": "Emergencia",
+    "cordova": {
+        "platforms": [],
+        "plugins": {
+            "cordova-plugin-android-permissions": {},
+            "cordova-plugin-geolocation": {}
+        }
+    },
+    "dependencies": {
+        "cordova-android": "^6.3.0",
+        "cordova-plugin-android-permissions": "^1.0.0",
+        "cordova-plugin-geolocation": "^3.0.0"
+    }
 }

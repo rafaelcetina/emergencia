@@ -7,9 +7,6 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
-        },
         "cordova-plugin-console": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
@@ -17,6 +14,12 @@
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
         "cordova-plugin-indexedDB": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "cordova-plugin-android-permissions": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },

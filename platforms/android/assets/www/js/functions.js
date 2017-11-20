@@ -76,9 +76,14 @@ function register() {
 
 $(function(){
     console.log("inicia functions.js");
+
+    
+    
+
+
     getLocation();
     // GEO
-    // 
+    //
 
 
        // onSuccess Callback
@@ -86,6 +91,7 @@ $(function(){
     // current GPS coordinates
     //
     var onSuccess = function(position) {
+      /*
         alert('Latitude: '          + position.coords.latitude          + '\n' +
               'Longitude: '         + position.coords.longitude         + '\n' +
               'Altitude: '          + position.coords.altitude          + '\n' +
@@ -94,6 +100,7 @@ $(function(){
               'Heading: '           + position.coords.heading           + '\n' +
               'Speed: '             + position.coords.speed             + '\n' +
               'Timestamp: '         + position.timestamp                + '\n');
+        */
     };
  
     // onError Callback receives a PositionError object

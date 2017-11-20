@@ -7,6 +7,14 @@ module.exports = [
         "clobbers": [
             "window.StatusBar"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-android-permissions/www/permissions-dummy.js",
+        "id": "cordova-plugin-android-permissions.Permissions",
+        "pluginId": "cordova-plugin-android-permissions",
+        "clobbers": [
+            "cordova.plugins.permissions"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -15,7 +23,9 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-plugin-console": "1.0.7",
     "cordova-plugin-statusbar": "1.0.1",
-    "cordova-plugin-indexedDB": "0.1.2"
+    "cordova-plugin-indexedDB": "0.1.2",
+    "cordova-plugin-geolocation": "3.0.0",
+    "cordova-plugin-android-permissions": "1.0.0"
 }
 // BOTTOM OF METADATA
 });
