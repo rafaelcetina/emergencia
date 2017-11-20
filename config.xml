@@ -31,9 +31,8 @@
     <plugin source="git" spec="https://github.com/Microsoft/cordova-plugin-indexedDB.git" />
     <plugin name="cordova-plugin-android-permissions" spec="^1.0.0" />
     <plugin name="cordova-plugin-geolocation" spec="^3.0.0" />
-    <gap:config-file platform="android" parent="/manifest" mode="add">
+    <config-file platform="android" parent="/manifest">
         <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
         <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-        <uses-feature android:name="android.hardware.location.gps" />
-    </gap:config-file>
+    </config-file>
 </widget>
